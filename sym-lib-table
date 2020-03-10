@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name MAX4617)(type Legacy)(uri ${KIPRJMOD}/Libraries/schematic/MAX4617.lib)(options "")(descr ""))
+  (lib (name Digilent-CoraZ7)(type Legacy)(uri ${KIPRJMOD}/Libraries/schematic/Digilent-CoraZ7.lib)(options "")(descr ""))
+)

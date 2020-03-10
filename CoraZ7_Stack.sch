@@ -1,0 +1,678 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_US R9
+U 1 1 5E8730BD
+P 8150 1150
+F 0 "R9" H 8218 1196 50  0000 L CNN
+F 1 "2.32K" H 8218 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8190 1140 50  0001 C CNN
+F 3 "~" H 8150 1150 50  0001 C CNN
+	1    8150 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R11
+U 1 1 5E887692
+P 8650 1150
+F 0 "R11" H 8718 1196 50  0000 L CNN
+F 1 "2.32K" H 8718 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8690 1140 50  0001 C CNN
+F 3 "~" H 8650 1150 50  0001 C CNN
+	1    8650 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R13
+U 1 1 5E88797E
+P 9150 1150
+F 0 "R13" H 9218 1196 50  0000 L CNN
+F 1 "2.32K" H 9218 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9190 1140 50  0001 C CNN
+F 3 "~" H 9150 1150 50  0001 C CNN
+	1    9150 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R15
+U 1 1 5E8882E5
+P 9650 1150
+F 0 "R15" H 9718 1196 50  0000 L CNN
+F 1 "2.32K" H 9718 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9690 1140 50  0001 C CNN
+F 3 "~" H 9650 1150 50  0001 C CNN
+	1    9650 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 5E88A70B
+P 7500 2800
+F 0 "R3" V 7705 2800 50  0000 C CNN
+F 1 "140" V 7614 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7540 2790 50  0001 C CNN
+F 3 "~" H 7500 2800 50  0001 C CNN
+	1    7500 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 5E88AA87
+P 7500 3300
+F 0 "R4" V 7705 3300 50  0000 C CNN
+F 1 "845" V 7614 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7540 3290 50  0001 C CNN
+F 3 "~" H 7500 3300 50  0001 C CNN
+	1    7500 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 5E88ADEA
+P 7500 3750
+F 0 "R5" V 7705 3750 50  0000 C CNN
+F 1 "140" V 7614 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7540 3740 50  0001 C CNN
+F 3 "~" H 7500 3750 50  0001 C CNN
+	1    7500 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R6
+U 1 1 5E88B130
+P 7500 4250
+F 0 "R6" V 7705 4250 50  0000 C CNN
+F 1 "845" V 7614 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7540 4240 50  0001 C CNN
+F 3 "~" H 7500 4250 50  0001 C CNN
+	1    7500 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R7
+U 1 1 5E88B613
+P 7500 4800
+F 0 "R7" V 7705 4800 50  0000 C CNN
+F 1 "140" V 7614 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7540 4790 50  0001 C CNN
+F 3 "~" H 7500 4800 50  0001 C CNN
+	1    7500 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R8
+U 1 1 5E88B924
+P 7500 5300
+F 0 "R8" V 7705 5300 50  0000 C CNN
+F 1 "845" V 7614 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7540 5290 50  0001 C CNN
+F 3 "~" H 7500 5300 50  0001 C CNN
+	1    7500 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R10
+U 1 1 5E89E2BB
+P 8150 5550
+F 0 "R10" H 8218 5596 50  0000 L CNN
+F 1 "1K" H 8218 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8190 5540 50  0001 C CNN
+F 3 "~" H 8150 5550 50  0001 C CNN
+	1    8150 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R12
+U 1 1 5E89E2C1
+P 8650 5550
+F 0 "R12" H 8718 5596 50  0000 L CNN
+F 1 "1K" H 8718 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8690 5540 50  0001 C CNN
+F 3 "~" H 8650 5550 50  0001 C CNN
+	1    8650 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R14
+U 1 1 5E89E2C7
+P 9150 5550
+F 0 "R14" H 9218 5596 50  0000 L CNN
+F 1 "1K" H 9218 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9190 5540 50  0001 C CNN
+F 3 "~" H 9150 5550 50  0001 C CNN
+	1    9150 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R16
+U 1 1 5E89E2CD
+P 9650 5550
+F 0 "R16" H 9718 5596 50  0000 L CNN
+F 1 "1K" H 9718 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9690 5540 50  0001 C CNN
+F 3 "~" H 9650 5550 50  0001 C CNN
+	1    9650 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E8A6050
+P 7750 2300
+AR Path="/5E8A6050" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E8A6050" Ref="#PWR?"  Part="1" 
+AR Path="/5E8426EB/5E8A6050" Ref="#PWR042"  Part="1" 
+F 0 "#PWR042" H 7750 2050 50  0001 C CNN
+F 1 "GND" H 7755 2127 50  0000 C CNN
+F 2 "" H 7750 2300 50  0001 C CNN
+F 3 "" H 7750 2300 50  0001 C CNN
+	1    7750 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E8A625F
+P 7750 3450
+AR Path="/5E8A625F" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E8A625F" Ref="#PWR?"  Part="1" 
+AR Path="/5E8426EB/5E8A625F" Ref="#PWR043"  Part="1" 
+F 0 "#PWR043" H 7750 3200 50  0001 C CNN
+F 1 "GND" H 7755 3277 50  0000 C CNN
+F 2 "" H 7750 3450 50  0001 C CNN
+F 3 "" H 7750 3450 50  0001 C CNN
+	1    7750 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E8A6852
+P 7800 4400
+AR Path="/5E8A6852" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E8A6852" Ref="#PWR?"  Part="1" 
+AR Path="/5E8426EB/5E8A6852" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 7800 4150 50  0001 C CNN
+F 1 "GND" H 7805 4227 50  0000 C CNN
+F 2 "" H 7800 4400 50  0001 C CNN
+F 3 "" H 7800 4400 50  0001 C CNN
+	1    7800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E8A6B8E
+P 7750 5450
+AR Path="/5E8A6B8E" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E8A6B8E" Ref="#PWR?"  Part="1" 
+AR Path="/5E8426EB/5E8A6B8E" Ref="#PWR045"  Part="1" 
+F 0 "#PWR045" H 7750 5200 50  0001 C CNN
+F 1 "GND" H 7755 5277 50  0000 C CNN
+F 2 "" H 7750 5450 50  0001 C CNN
+F 3 "" H 7750 5450 50  0001 C CNN
+	1    7750 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E8A6E9C
+P 8150 5900
+AR Path="/5E8A6E9C" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E8A6E9C" Ref="#PWR?"  Part="1" 
+AR Path="/5E8426EB/5E8A6E9C" Ref="#PWR046"  Part="1" 
+F 0 "#PWR046" H 8150 5650 50  0001 C CNN
+F 1 "GND" H 8155 5727 50  0000 C CNN
+F 2 "" H 8150 5900 50  0001 C CNN
+F 3 "" H 8150 5900 50  0001 C CNN
+	1    8150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E8A70D5
+P 8650 5900
+AR Path="/5E8A70D5" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E8A70D5" Ref="#PWR?"  Part="1" 
+AR Path="/5E8426EB/5E8A70D5" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 8650 5650 50  0001 C CNN
+F 1 "GND" H 8655 5727 50  0000 C CNN
+F 2 "" H 8650 5900 50  0001 C CNN
+F 3 "" H 8650 5900 50  0001 C CNN
+	1    8650 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E8A7470
+P 9150 5900
+AR Path="/5E8A7470" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E8A7470" Ref="#PWR?"  Part="1" 
+AR Path="/5E8426EB/5E8A7470" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 9150 5650 50  0001 C CNN
+F 1 "GND" H 9155 5727 50  0000 C CNN
+F 2 "" H 9150 5900 50  0001 C CNN
+F 3 "" H 9150 5900 50  0001 C CNN
+	1    9150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E8A7664
+P 9650 5900
+AR Path="/5E8A7664" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E8A7664" Ref="#PWR?"  Part="1" 
+AR Path="/5E8426EB/5E8A7664" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 9650 5650 50  0001 C CNN
+F 1 "GND" H 9655 5727 50  0000 C CNN
+F 2 "" H 9650 5900 50  0001 C CNN
+F 3 "" H 9650 5900 50  0001 C CNN
+	1    9650 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 5700 8150 5900
+Wire Wire Line
+	8650 5700 8650 5900
+Wire Wire Line
+	9150 5700 9150 5900
+Wire Wire Line
+	9650 5700 9650 5900
+Wire Wire Line
+	7650 5300 7750 5300
+Wire Wire Line
+	7750 5300 7750 5450
+Wire Wire Line
+	7800 4250 7800 4400
+Wire Wire Line
+	7650 2250 7750 2250
+Wire Wire Line
+	7750 2250 7750 2300
+Wire Wire Line
+	7650 3300 7750 3300
+Wire Wire Line
+	7750 3300 7750 3450
+Wire Wire Line
+	8150 1300 8150 4800
+Wire Wire Line
+	9150 1300 9150 2800
+Wire Wire Line
+	9650 5400 9650 1800
+$Comp
+L Device:R_US R2
+U 1 1 5E888DD7
+P 7500 2250
+F 0 "R2" V 7705 2250 50  0000 C CNN
+F 1 "845" V 7614 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7540 2240 50  0001 C CNN
+F 3 "~" H 7500 2250 50  0001 C CNN
+	1    7500 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5E888715
+P 7500 1800
+F 0 "R1" V 7705 1800 50  0000 C CNN
+F 1 "140" V 7614 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7540 1790 50  0001 C CNN
+F 3 "~" H 7500 1800 50  0001 C CNN
+	1    7500 1800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 3750 8650 3750
+Connection ~ 8650 3750
+Wire Wire Line
+	8650 3750 8650 1300
+Wire Wire Line
+	7650 2800 9150 2800
+Connection ~ 9150 2800
+Wire Wire Line
+	9150 2800 9150 5400
+Wire Wire Line
+	7650 1800 9650 1800
+Connection ~ 9650 1800
+Wire Wire Line
+	9650 1800 9650 1300
+$Comp
+L Digilent-CoraZ7:Digilent-CoraZ7_units U11
+U 1 1 5E8B7161
+P 4000 3400
+F 0 "U11" H 4900 4825 50  0000 C CNN
+F 1 "Digilent-CoraZ7_units" H 4900 4734 50  0000 C CNN
+F 2 "footprint:CoraZ7_stack" H 6250 5350 50  0001 C CNN
+F 3 "" H 4050 1450 50  0001 C CNN
+	1    4000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Digilent-CoraZ7:Digilent-CoraZ7_units U11
+U 2 1 5E8B9C6E
+P 1200 3350
+F 0 "U11" H 2075 5275 50  0000 C CNN
+F 1 "Digilent-CoraZ7_units" H 2075 5184 50  0000 C CNN
+F 2 "footprint:CoraZ7_stack" H 3450 5300 50  0001 C CNN
+F 3 "" H 1250 1400 50  0001 C CNN
+	2    1200 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 2800 0    50   BiDi ~ 0
+CH0
+Text GLabel 4300 2900 0    50   BiDi ~ 0
+CH1
+Text GLabel 4300 3000 0    50   BiDi ~ 0
+CH2
+Text GLabel 4300 3100 0    50   BiDi ~ 0
+CH3
+Text GLabel 4300 3200 0    50   BiDi ~ 0
+CH4
+Text GLabel 4300 3300 0    50   BiDi ~ 0
+CH5
+Wire Wire Line
+	5300 2300 6600 2300
+Wire Wire Line
+	6600 2300 6600 1800
+Wire Wire Line
+	6600 1800 7150 1800
+Wire Wire Line
+	5300 2400 6900 2400
+Wire Wire Line
+	6900 2400 6900 2250
+Wire Wire Line
+	6900 2250 7150 2250
+Wire Wire Line
+	5300 2800 7200 2800
+Wire Wire Line
+	6900 3300 7200 3300
+Wire Wire Line
+	5300 3100 6050 3100
+Wire Wire Line
+	6050 3100 6050 4250
+Wire Wire Line
+	6050 4250 7200 4250
+Wire Wire Line
+	5300 3200 5950 3200
+Wire Wire Line
+	5950 3200 5950 4800
+Wire Wire Line
+	5950 4800 7200 4800
+Wire Wire Line
+	5300 3300 5850 3300
+Wire Wire Line
+	8650 3750 8650 5400
+Wire Wire Line
+	7650 4800 8150 4800
+Connection ~ 8150 4800
+Wire Wire Line
+	8150 4800 8150 5400
+Text GLabel 7900 900  0    50   BiDi ~ 0
+CH6
+Text GLabel 8500 900  0    50   BiDi ~ 0
+CH7
+Text GLabel 9000 900  0    50   BiDi ~ 0
+CH8
+Text GLabel 9500 900  0    50   BiDi ~ 0
+CH9
+Wire Wire Line
+	7900 900  8150 900 
+Wire Wire Line
+	8150 900  8150 1000
+Wire Wire Line
+	8500 900  8650 900 
+Wire Wire Line
+	8650 900  8650 1000
+Wire Wire Line
+	9000 900  9150 900 
+Wire Wire Line
+	9150 900  9150 1000
+Wire Wire Line
+	9500 900  9650 900 
+Wire Wire Line
+	9650 900  9650 1000
+$Comp
+L power:GND #PWR?
+U 1 1 5E8FB68D
+P 1400 3950
+AR Path="/5E8FB68D" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E8FB68D" Ref="#PWR?"  Part="1" 
+AR Path="/5E8426EB/5E8FB68D" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 1400 3700 50  0001 C CNN
+F 1 "GND" H 1405 3777 50  0000 C CNN
+F 2 "" H 1400 3950 50  0001 C CNN
+F 3 "" H 1400 3950 50  0001 C CNN
+	1    1400 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3800 1400 3800
+Wire Wire Line
+	1400 3800 1400 3950
+$Comp
+L power:GND #PWR?
+U 1 1 5E900162
+P 3850 2600
+AR Path="/5E900162" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E900162" Ref="#PWR?"  Part="1" 
+AR Path="/5E8426EB/5E900162" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 3850 2350 50  0001 C CNN
+F 1 "GND" H 3855 2427 50  0000 C CNN
+F 2 "" H 3850 2600 50  0001 C CNN
+F 3 "" H 3850 2600 50  0001 C CNN
+	1    3850 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2500 3850 2500
+Wire Wire Line
+	3850 2500 3850 2600
+Wire Wire Line
+	4500 2400 3850 2400
+Wire Wire Line
+	3850 2400 3850 2500
+Connection ~ 3850 2500
+Wire Wire Line
+	5850 5300 7200 5300
+Wire Wire Line
+	6150 3750 7200 3750
+Wire Wire Line
+	5300 3000 6150 3000
+Wire Wire Line
+	6150 3000 6150 3750
+Wire Wire Line
+	6900 2900 5300 2900
+Wire Wire Line
+	6900 2900 6900 3300
+Wire Wire Line
+	7650 4250 7800 4250
+Wire Wire Line
+	5850 3300 5850 5300
+$Comp
+L Device:C C1
+U 1 1 5E95B9C2
+P 7150 2050
+F 0 "C1" H 7265 2096 50  0000 L CNN
+F 1 "1nF" H 7265 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7188 1900 50  0001 C CNN
+F 3 "~" H 7150 2050 50  0001 C CNN
+	1    7150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5E95CEBC
+P 7200 3050
+F 0 "C2" H 7315 3096 50  0000 L CNN
+F 1 "1nF" H 7315 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7238 2900 50  0001 C CNN
+F 3 "~" H 7200 3050 50  0001 C CNN
+	1    7200 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5E95E4A7
+P 7200 4000
+F 0 "C3" H 7315 4046 50  0000 L CNN
+F 1 "1nF" H 7315 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7238 3850 50  0001 C CNN
+F 3 "~" H 7200 4000 50  0001 C CNN
+	1    7200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5E95F900
+P 7200 5050
+F 0 "C4" H 7315 5096 50  0000 L CNN
+F 1 "1nF" H 7315 5005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7238 4900 50  0001 C CNN
+F 3 "~" H 7200 5050 50  0001 C CNN
+	1    7200 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 1900 7150 1800
+Connection ~ 7150 1800
+Wire Wire Line
+	7150 1800 7350 1800
+Wire Wire Line
+	7150 2200 7150 2250
+Connection ~ 7150 2250
+Wire Wire Line
+	7150 2250 7350 2250
+Wire Wire Line
+	7200 2900 7200 2800
+Connection ~ 7200 2800
+Wire Wire Line
+	7200 2800 7350 2800
+Wire Wire Line
+	7200 3200 7200 3300
+Connection ~ 7200 3300
+Wire Wire Line
+	7200 3300 7350 3300
+Wire Wire Line
+	7200 3850 7200 3750
+Connection ~ 7200 3750
+Wire Wire Line
+	7200 3750 7350 3750
+Wire Wire Line
+	7200 4150 7200 4250
+Connection ~ 7200 4250
+Wire Wire Line
+	7200 4250 7350 4250
+Wire Wire Line
+	7200 4900 7200 4800
+Connection ~ 7200 4800
+Wire Wire Line
+	7200 4800 7350 4800
+Wire Wire Line
+	7200 5200 7200 5300
+Connection ~ 7200 5300
+Wire Wire Line
+	7200 5300 7350 5300
+Wire Wire Line
+	4500 2800 4300 2800
+Wire Wire Line
+	4500 2900 4300 2900
+Wire Wire Line
+	4500 3000 4300 3000
+Wire Wire Line
+	4500 3100 4300 3100
+Wire Wire Line
+	4500 3200 4300 3200
+Wire Wire Line
+	4500 3300 4300 3300
+Wire Wire Line
+	3050 1750 3050 1850
+Wire Wire Line
+	2450 1750 3050 1750
+$Comp
+L power:GND #PWR?
+U 1 1 5E8F8841
+P 3050 1850
+AR Path="/5E8F8841" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E8F8841" Ref="#PWR?"  Part="1" 
+AR Path="/5E8426EB/5E8F8841" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 3050 1600 50  0001 C CNN
+F 1 "GND" H 3055 1677 50  0000 C CNN
+F 2 "" H 3050 1850 50  0001 C CNN
+F 3 "" H 3050 1850 50  0001 C CNN
+	1    3050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Digilent-CoraZ7:Digilent-CoraZ7_units U11
+U 3 1 5E8BBD35
+P 1600 5300
+F 0 "U11" H 2278 6201 50  0000 L CNN
+F 1 "Digilent-CoraZ7_units" H 2278 6110 50  0000 L CNN
+F 2 "footprint:CoraZ7_stack" H 3850 7250 50  0001 C CNN
+F 3 "" H 1650 3350 50  0001 C CNN
+	3    1600 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 2200 0    50   Input ~ 0
+3V3_CoraZ7
+Text GLabel 4150 2300 0    50   Input ~ 0
+5V_CoraZ7
+Wire Wire Line
+	4150 2200 4500 2200
+Wire Wire Line
+	4500 2300 4150 2300
+Text GLabel 1500 3700 0    50   Input ~ 0
+3V3_CoraZ7
+Wire Wire Line
+	1500 3700 1850 3700
+Text GLabel 1500 5200 0    50   Input ~ 0
+3V3_CoraZ7
+Wire Wire Line
+	1500 5200 1850 5200
+$Comp
+L power:GND #PWR?
+U 1 1 5E8FDA0C
+P 750 5200
+AR Path="/5E8FDA0C" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E8FDA0C" Ref="#PWR?"  Part="1" 
+AR Path="/5E8426EB/5E8FDA0C" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 750 4950 50  0001 C CNN
+F 1 "GND" H 755 5027 50  0000 C CNN
+F 2 "" H 750 5200 50  0001 C CNN
+F 3 "" H 750 5200 50  0001 C CNN
+	1    750  5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  5100 1850 5100
+Wire Wire Line
+	750  5100 750  5200
+Text GLabel 2150 1000 0    50   Input ~ 0
+5V_CoraZ7
+$Comp
+L power:VCC #PWR?
+U 1 1 5E9AF783
+P 2600 900
+AR Path="/5E9AF783" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E9AF783" Ref="#PWR?"  Part="1" 
+AR Path="/5E8426EB/5E9AF783" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 2600 750 50  0001 C CNN
+F 1 "VCC" H 2617 1073 50  0000 C CNN
+F 2 "" H 2600 900 50  0001 C CNN
+F 3 "" H 2600 900 50  0001 C CNN
+	1    2600 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 900  2600 1000
+Wire Wire Line
+	2150 1000 2600 1000
+$EndSCHEMATC

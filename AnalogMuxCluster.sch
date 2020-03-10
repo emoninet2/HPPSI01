@@ -1,0 +1,1796 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5E7DC5FE
+P 2000 1100
+AR Path="/5E7DC5FE" Ref="J?"  Part="1" 
+AR Path="/5E76D636/5E7DC5FE" Ref="J2"  Part="1" 
+F 0 "J2" H 2050 1517 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 2050 1426 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2000 1100 50  0001 C CNN
+F 3 "~" H 2000 1100 50  0001 C CNN
+	1    2000 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX4617:MAX4617EUE+ U?
+U 1 1 5E7DC604
+P 2100 2150
+AR Path="/5E7DC604" Ref="U?"  Part="1" 
+AR Path="/5E76D636/5E7DC604" Ref="U2"  Part="1" 
+F 0 "U2" H 2075 2725 50  0000 C CNN
+F 1 "MAX4617EUE+" H 2075 2634 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 1650 2600 50  0001 C CNN
+F 3 "" H 1650 2600 50  0001 C CNN
+	1    2100 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 2800 2100 2    50   BiDi ~ 0
+CH0_0
+Text GLabel 2800 2000 2    50   BiDi ~ 0
+CH1_0
+Text GLabel 2800 1900 2    50   BiDi ~ 0
+CH2_0
+Text GLabel 2800 2200 2    50   BiDi ~ 0
+CH3_0
+Text GLabel 1350 1800 0    50   BiDi ~ 0
+CH4_0
+Text GLabel 1350 2200 0    50   BiDi ~ 0
+CH5_0
+Text GLabel 1350 1900 0    50   BiDi ~ 0
+CH6_0
+Text GLabel 1350 2100 0    50   BiDi ~ 0
+CH7_0
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC612
+P 1300 2600
+AR Path="/5E7DC612" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC612" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 1300 2350 50  0001 C CNN
+F 1 "GND" H 1305 2427 50  0000 C CNN
+F 2 "" H 1300 2600 50  0001 C CNN
+F 3 "" H 1300 2600 50  0001 C CNN
+	1    1300 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2500 1300 2500
+Wire Wire Line
+	1300 2500 1300 2600
+Text GLabel 2800 2300 2    50   BiDi ~ 0
+A
+Text GLabel 2800 2400 2    50   BiDi ~ 0
+B
+Text GLabel 2800 2500 2    50   BiDi ~ 0
+C
+$Comp
+L power:VCC #PWR?
+U 1 1 5E7DC61D
+P 2850 1700
+AR Path="/5E7DC61D" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC61D" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 2850 1550 50  0001 C CNN
+F 1 "VCC" H 2867 1873 50  0000 C CNN
+F 2 "" H 2850 1700 50  0001 C CNN
+F 3 "" H 2850 1700 50  0001 C CNN
+	1    2850 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1700 2850 1800
+Wire Wire Line
+	2850 1800 2650 1800
+Text GLabel 1350 2000 0    50   BiDi ~ 0
+CH0
+Text GLabel 1350 2300 0    50   BiDi ~ 0
+ENABLE
+Wire Wire Line
+	1350 1800 1500 1800
+Wire Wire Line
+	1350 1900 1500 1900
+Wire Wire Line
+	1350 2000 1500 2000
+Wire Wire Line
+	1350 2100 1500 2100
+Wire Wire Line
+	1350 2200 1500 2200
+Wire Wire Line
+	1500 2300 1350 2300
+Wire Wire Line
+	2650 1900 2800 1900
+Wire Wire Line
+	2800 2000 2650 2000
+Wire Wire Line
+	2650 2100 2800 2100
+Wire Wire Line
+	2800 2200 2650 2200
+Wire Wire Line
+	2650 2300 2800 2300
+Wire Wire Line
+	2800 2400 2650 2400
+Wire Wire Line
+	2800 2500 2650 2500
+Text GLabel 1700 1000 0    50   BiDi ~ 0
+CH0_0
+Text GLabel 1700 1100 0    50   BiDi ~ 0
+CH2_0
+Text GLabel 1700 1200 0    50   BiDi ~ 0
+CH4_0
+Text GLabel 1700 1300 0    50   BiDi ~ 0
+CH6_0
+Text GLabel 2450 1000 2    50   BiDi ~ 0
+CH1_0
+Text GLabel 2450 1100 2    50   BiDi ~ 0
+CH3_0
+Text GLabel 2450 1200 2    50   BiDi ~ 0
+CH5_0
+Text GLabel 2450 1300 2    50   BiDi ~ 0
+CH7_0
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC63C
+P 2900 1000
+AR Path="/5E7DC63C" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC63C" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 2900 750 50  0001 C CNN
+F 1 "GND" H 2905 827 50  0000 C CNN
+F 2 "" H 2900 1000 50  0001 C CNN
+F 3 "" H 2900 1000 50  0001 C CNN
+	1    2900 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC642
+P 1250 1050
+AR Path="/5E7DC642" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC642" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 1250 800 50  0001 C CNN
+F 1 "GND" H 1255 877 50  0000 C CNN
+F 2 "" H 1250 1050 50  0001 C CNN
+F 3 "" H 1250 1050 50  0001 C CNN
+	1    1250 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1050 1250 900 
+Wire Wire Line
+	1250 900  1800 900 
+Wire Wire Line
+	2900 1000 2900 900 
+Wire Wire Line
+	2900 900  2300 900 
+Wire Wire Line
+	1800 1000 1700 1000
+Wire Wire Line
+	1800 1100 1700 1100
+Wire Wire Line
+	1800 1200 1700 1200
+Wire Wire Line
+	1800 1300 1700 1300
+Wire Wire Line
+	2300 1000 2450 1000
+Wire Wire Line
+	2300 1100 2450 1100
+Wire Wire Line
+	2300 1200 2450 1200
+Wire Wire Line
+	2300 1300 2450 1300
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5E7DC654
+P 4600 1100
+AR Path="/5E7DC654" Ref="J?"  Part="1" 
+AR Path="/5E76D636/5E7DC654" Ref="J4"  Part="1" 
+F 0 "J4" H 4650 1517 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 4650 1426 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4600 1100 50  0001 C CNN
+F 3 "~" H 4600 1100 50  0001 C CNN
+	1    4600 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX4617:MAX4617EUE+ U?
+U 1 1 5E7DC65A
+P 4700 2150
+AR Path="/5E7DC65A" Ref="U?"  Part="1" 
+AR Path="/5E76D636/5E7DC65A" Ref="U4"  Part="1" 
+F 0 "U4" H 4675 2725 50  0000 C CNN
+F 1 "MAX4617EUE+" H 4675 2634 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4250 2600 50  0001 C CNN
+F 3 "" H 4250 2600 50  0001 C CNN
+	1    4700 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 2100 2    50   BiDi ~ 0
+CH0_3
+Text GLabel 5400 2000 2    50   BiDi ~ 0
+CH1_3
+Text GLabel 5400 1900 2    50   BiDi ~ 0
+CH2_3
+Text GLabel 5400 2200 2    50   BiDi ~ 0
+CH3_3
+Text GLabel 3950 1800 0    50   BiDi ~ 0
+CH4_3
+Text GLabel 3950 2200 0    50   BiDi ~ 0
+CH5_3
+Text GLabel 3950 1900 0    50   BiDi ~ 0
+CH6_3
+Text GLabel 3950 2100 0    50   BiDi ~ 0
+CH7_3
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC668
+P 3900 2600
+AR Path="/5E7DC668" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC668" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 3900 2350 50  0001 C CNN
+F 1 "GND" H 3905 2427 50  0000 C CNN
+F 2 "" H 3900 2600 50  0001 C CNN
+F 3 "" H 3900 2600 50  0001 C CNN
+	1    3900 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2500 3900 2500
+Wire Wire Line
+	3900 2500 3900 2600
+Text GLabel 5400 2300 2    50   BiDi ~ 0
+A
+Text GLabel 5400 2400 2    50   BiDi ~ 0
+B
+Text GLabel 5400 2500 2    50   BiDi ~ 0
+C
+$Comp
+L power:VCC #PWR?
+U 1 1 5E7DC673
+P 5450 1700
+AR Path="/5E7DC673" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC673" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 5450 1550 50  0001 C CNN
+F 1 "VCC" H 5467 1873 50  0000 C CNN
+F 2 "" H 5450 1700 50  0001 C CNN
+F 3 "" H 5450 1700 50  0001 C CNN
+	1    5450 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 1700 5450 1800
+Wire Wire Line
+	5450 1800 5250 1800
+Text GLabel 3950 2000 0    50   BiDi ~ 0
+CH3
+Text GLabel 3950 2300 0    50   BiDi ~ 0
+ENABLE
+Wire Wire Line
+	3950 1800 4100 1800
+Wire Wire Line
+	3950 1900 4100 1900
+Wire Wire Line
+	3950 2000 4100 2000
+Wire Wire Line
+	3950 2100 4100 2100
+Wire Wire Line
+	3950 2200 4100 2200
+Wire Wire Line
+	4100 2300 3950 2300
+Wire Wire Line
+	5250 1900 5400 1900
+Wire Wire Line
+	5400 2000 5250 2000
+Wire Wire Line
+	5250 2100 5400 2100
+Wire Wire Line
+	5400 2200 5250 2200
+Wire Wire Line
+	5250 2300 5400 2300
+Wire Wire Line
+	5400 2400 5250 2400
+Wire Wire Line
+	5400 2500 5250 2500
+Text GLabel 4300 1000 0    50   BiDi ~ 0
+CH0_3
+Text GLabel 4300 1100 0    50   BiDi ~ 0
+CH2_3
+Text GLabel 4300 1200 0    50   BiDi ~ 0
+CH4_3
+Text GLabel 4300 1300 0    50   BiDi ~ 0
+CH6_3
+Text GLabel 5050 1000 2    50   BiDi ~ 0
+CH1_3
+Text GLabel 5050 1100 2    50   BiDi ~ 0
+CH3_3
+Text GLabel 5050 1200 2    50   BiDi ~ 0
+CH5_3
+Text GLabel 5050 1300 2    50   BiDi ~ 0
+CH7_3
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC692
+P 5500 1000
+AR Path="/5E7DC692" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC692" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 5500 750 50  0001 C CNN
+F 1 "GND" H 5505 827 50  0000 C CNN
+F 2 "" H 5500 1000 50  0001 C CNN
+F 3 "" H 5500 1000 50  0001 C CNN
+	1    5500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC698
+P 3850 1050
+AR Path="/5E7DC698" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC698" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 3850 800 50  0001 C CNN
+F 1 "GND" H 3855 877 50  0000 C CNN
+F 2 "" H 3850 1050 50  0001 C CNN
+F 3 "" H 3850 1050 50  0001 C CNN
+	1    3850 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1050 3850 900 
+Wire Wire Line
+	3850 900  4400 900 
+Wire Wire Line
+	5500 1000 5500 900 
+Wire Wire Line
+	5500 900  4900 900 
+Wire Wire Line
+	4400 1000 4300 1000
+Wire Wire Line
+	4400 1100 4300 1100
+Wire Wire Line
+	4400 1200 4300 1200
+Wire Wire Line
+	4400 1300 4300 1300
+Wire Wire Line
+	4900 1000 5050 1000
+Wire Wire Line
+	4900 1100 5050 1100
+Wire Wire Line
+	4900 1200 5050 1200
+Wire Wire Line
+	4900 1300 5050 1300
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5E7DC6AA
+P 7100 1100
+AR Path="/5E7DC6AA" Ref="J?"  Part="1" 
+AR Path="/5E76D636/5E7DC6AA" Ref="J7"  Part="1" 
+F 0 "J7" H 7150 1517 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 7150 1426 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 7100 1100 50  0001 C CNN
+F 3 "~" H 7100 1100 50  0001 C CNN
+	1    7100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX4617:MAX4617EUE+ U?
+U 1 1 5E7DC6B0
+P 7200 2150
+AR Path="/5E7DC6B0" Ref="U?"  Part="1" 
+AR Path="/5E76D636/5E7DC6B0" Ref="U7"  Part="1" 
+F 0 "U7" H 7175 2725 50  0000 C CNN
+F 1 "MAX4617EUE+" H 7175 2634 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 6750 2600 50  0001 C CNN
+F 3 "" H 6750 2600 50  0001 C CNN
+	1    7200 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 2100 2    50   BiDi ~ 0
+CH0_6
+Text GLabel 7900 2000 2    50   BiDi ~ 0
+CH1_6
+Text GLabel 7900 1900 2    50   BiDi ~ 0
+CH2_6
+Text GLabel 7900 2200 2    50   BiDi ~ 0
+CH3_6
+Text GLabel 6450 1800 0    50   BiDi ~ 0
+CH4_6
+Text GLabel 6450 2200 0    50   BiDi ~ 0
+CH5_6
+Text GLabel 6450 1900 0    50   BiDi ~ 0
+CH6_6
+Text GLabel 6450 2100 0    50   BiDi ~ 0
+CH7_6
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC6BE
+P 6400 2600
+AR Path="/5E7DC6BE" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC6BE" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 6400 2350 50  0001 C CNN
+F 1 "GND" H 6405 2427 50  0000 C CNN
+F 2 "" H 6400 2600 50  0001 C CNN
+F 3 "" H 6400 2600 50  0001 C CNN
+	1    6400 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2500 6400 2500
+Wire Wire Line
+	6400 2500 6400 2600
+Text GLabel 7900 2300 2    50   BiDi ~ 0
+A
+Text GLabel 7900 2400 2    50   BiDi ~ 0
+B
+Text GLabel 7900 2500 2    50   BiDi ~ 0
+C
+$Comp
+L power:VCC #PWR?
+U 1 1 5E7DC6C9
+P 7950 1700
+AR Path="/5E7DC6C9" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC6C9" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 7950 1550 50  0001 C CNN
+F 1 "VCC" H 7967 1873 50  0000 C CNN
+F 2 "" H 7950 1700 50  0001 C CNN
+F 3 "" H 7950 1700 50  0001 C CNN
+	1    7950 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1700 7950 1800
+Wire Wire Line
+	7950 1800 7750 1800
+Text GLabel 6450 2000 0    50   BiDi ~ 0
+CH6
+Text GLabel 6450 2300 0    50   BiDi ~ 0
+ENABLE
+Wire Wire Line
+	6450 1800 6600 1800
+Wire Wire Line
+	6450 1900 6600 1900
+Wire Wire Line
+	6450 2000 6600 2000
+Wire Wire Line
+	6450 2100 6600 2100
+Wire Wire Line
+	6450 2200 6600 2200
+Wire Wire Line
+	6600 2300 6450 2300
+Wire Wire Line
+	7750 1900 7900 1900
+Wire Wire Line
+	7900 2000 7750 2000
+Wire Wire Line
+	7750 2100 7900 2100
+Wire Wire Line
+	7900 2200 7750 2200
+Wire Wire Line
+	7750 2300 7900 2300
+Wire Wire Line
+	7900 2400 7750 2400
+Wire Wire Line
+	7900 2500 7750 2500
+Text GLabel 6800 1000 0    50   BiDi ~ 0
+CH0_6
+Text GLabel 6800 1100 0    50   BiDi ~ 0
+CH2_6
+Text GLabel 6800 1200 0    50   BiDi ~ 0
+CH4_6
+Text GLabel 6800 1300 0    50   BiDi ~ 0
+CH6_6
+Text GLabel 7550 1000 2    50   BiDi ~ 0
+CH1_6
+Text GLabel 7550 1100 2    50   BiDi ~ 0
+CH3_6
+Text GLabel 7550 1200 2    50   BiDi ~ 0
+CH5_6
+Text GLabel 7550 1300 2    50   BiDi ~ 0
+CH7_6
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC6E8
+P 8000 1000
+AR Path="/5E7DC6E8" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC6E8" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 8000 750 50  0001 C CNN
+F 1 "GND" H 8005 827 50  0000 C CNN
+F 2 "" H 8000 1000 50  0001 C CNN
+F 3 "" H 8000 1000 50  0001 C CNN
+	1    8000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC6EE
+P 6350 1050
+AR Path="/5E7DC6EE" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC6EE" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 6350 800 50  0001 C CNN
+F 1 "GND" H 6355 877 50  0000 C CNN
+F 2 "" H 6350 1050 50  0001 C CNN
+F 3 "" H 6350 1050 50  0001 C CNN
+	1    6350 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1050 6350 900 
+Wire Wire Line
+	6350 900  6900 900 
+Wire Wire Line
+	8000 1000 8000 900 
+Wire Wire Line
+	8000 900  7400 900 
+Wire Wire Line
+	6900 1000 6800 1000
+Wire Wire Line
+	6900 1100 6800 1100
+Wire Wire Line
+	6900 1200 6800 1200
+Wire Wire Line
+	6900 1300 6800 1300
+Wire Wire Line
+	7400 1000 7550 1000
+Wire Wire Line
+	7400 1100 7550 1100
+Wire Wire Line
+	7400 1200 7550 1200
+Wire Wire Line
+	7400 1300 7550 1300
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5E7DC700
+P 9450 1100
+AR Path="/5E7DC700" Ref="J?"  Part="1" 
+AR Path="/5E76D636/5E7DC700" Ref="J9"  Part="1" 
+F 0 "J9" H 9500 1517 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 9500 1426 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 9450 1100 50  0001 C CNN
+F 3 "~" H 9450 1100 50  0001 C CNN
+	1    9450 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX4617:MAX4617EUE+ U?
+U 1 1 5E7DC706
+P 9550 2150
+AR Path="/5E7DC706" Ref="U?"  Part="1" 
+AR Path="/5E76D636/5E7DC706" Ref="U9"  Part="1" 
+F 0 "U9" H 9525 2725 50  0000 C CNN
+F 1 "MAX4617EUE+" H 9525 2634 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 9100 2600 50  0001 C CNN
+F 3 "" H 9100 2600 50  0001 C CNN
+	1    9550 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 10250 2100 2    50   BiDi ~ 0
+CH0_8
+Text GLabel 10250 2000 2    50   BiDi ~ 0
+CH1_8
+Text GLabel 10250 1900 2    50   BiDi ~ 0
+CH2_8
+Text GLabel 10250 2200 2    50   BiDi ~ 0
+CH3_8
+Text GLabel 8800 1800 0    50   BiDi ~ 0
+CH4_8
+Text GLabel 8800 2200 0    50   BiDi ~ 0
+CH5_8
+Text GLabel 8800 1900 0    50   BiDi ~ 0
+CH6_8
+Text GLabel 8800 2100 0    50   BiDi ~ 0
+CH7_8
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC714
+P 8750 2600
+AR Path="/5E7DC714" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC714" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 8750 2350 50  0001 C CNN
+F 1 "GND" H 8755 2427 50  0000 C CNN
+F 2 "" H 8750 2600 50  0001 C CNN
+F 3 "" H 8750 2600 50  0001 C CNN
+	1    8750 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 2500 8750 2500
+Wire Wire Line
+	8750 2500 8750 2600
+Text GLabel 10250 2300 2    50   BiDi ~ 0
+A
+Text GLabel 10250 2400 2    50   BiDi ~ 0
+B
+Text GLabel 10250 2500 2    50   BiDi ~ 0
+C
+$Comp
+L power:VCC #PWR?
+U 1 1 5E7DC71F
+P 10300 1700
+AR Path="/5E7DC71F" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC71F" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 10300 1550 50  0001 C CNN
+F 1 "VCC" H 10317 1873 50  0000 C CNN
+F 2 "" H 10300 1700 50  0001 C CNN
+F 3 "" H 10300 1700 50  0001 C CNN
+	1    10300 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 1700 10300 1800
+Wire Wire Line
+	10300 1800 10100 1800
+Text GLabel 8800 2000 0    50   BiDi ~ 0
+CH8
+Text GLabel 8800 2300 0    50   BiDi ~ 0
+ENABLE
+Wire Wire Line
+	8800 1800 8950 1800
+Wire Wire Line
+	8800 1900 8950 1900
+Wire Wire Line
+	8800 2000 8950 2000
+Wire Wire Line
+	8800 2100 8950 2100
+Wire Wire Line
+	8800 2200 8950 2200
+Wire Wire Line
+	8950 2300 8800 2300
+Wire Wire Line
+	10100 1900 10250 1900
+Wire Wire Line
+	10250 2000 10100 2000
+Wire Wire Line
+	10100 2100 10250 2100
+Wire Wire Line
+	10250 2200 10100 2200
+Wire Wire Line
+	10100 2300 10250 2300
+Wire Wire Line
+	10250 2400 10100 2400
+Wire Wire Line
+	10250 2500 10100 2500
+Text GLabel 9150 1000 0    50   BiDi ~ 0
+CH0_8
+Text GLabel 9150 1100 0    50   BiDi ~ 0
+CH2_8
+Text GLabel 9150 1200 0    50   BiDi ~ 0
+CH4_8
+Text GLabel 9150 1300 0    50   BiDi ~ 0
+CH6_8
+Text GLabel 9900 1000 2    50   BiDi ~ 0
+CH1_8
+Text GLabel 9900 1100 2    50   BiDi ~ 0
+CH3_8
+Text GLabel 9900 1200 2    50   BiDi ~ 0
+CH5_8
+Text GLabel 9900 1300 2    50   BiDi ~ 0
+CH7_8
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC73E
+P 10350 1000
+AR Path="/5E7DC73E" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC73E" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 10350 750 50  0001 C CNN
+F 1 "GND" H 10355 827 50  0000 C CNN
+F 2 "" H 10350 1000 50  0001 C CNN
+F 3 "" H 10350 1000 50  0001 C CNN
+	1    10350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC744
+P 8700 1050
+AR Path="/5E7DC744" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC744" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 8700 800 50  0001 C CNN
+F 1 "GND" H 8705 877 50  0000 C CNN
+F 2 "" H 8700 1050 50  0001 C CNN
+F 3 "" H 8700 1050 50  0001 C CNN
+	1    8700 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1050 8700 900 
+Wire Wire Line
+	8700 900  9250 900 
+Wire Wire Line
+	10350 1000 10350 900 
+Wire Wire Line
+	10350 900  9750 900 
+Wire Wire Line
+	9250 1000 9150 1000
+Wire Wire Line
+	9250 1100 9150 1100
+Wire Wire Line
+	9250 1200 9150 1200
+Wire Wire Line
+	9250 1300 9150 1300
+Wire Wire Line
+	9750 1000 9900 1000
+Wire Wire Line
+	9750 1100 9900 1100
+Wire Wire Line
+	9750 1200 9900 1200
+Wire Wire Line
+	9750 1300 9900 1300
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5E7DC756
+P 2000 3550
+AR Path="/5E7DC756" Ref="J?"  Part="1" 
+AR Path="/5E76D636/5E7DC756" Ref="J3"  Part="1" 
+F 0 "J3" H 2050 3967 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 2050 3876 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2000 3550 50  0001 C CNN
+F 3 "~" H 2000 3550 50  0001 C CNN
+	1    2000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX4617:MAX4617EUE+ U?
+U 1 1 5E7DC75C
+P 2100 4600
+AR Path="/5E7DC75C" Ref="U?"  Part="1" 
+AR Path="/5E76D636/5E7DC75C" Ref="U3"  Part="1" 
+F 0 "U3" H 2075 5175 50  0000 C CNN
+F 1 "MAX4617EUE+" H 2075 5084 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 1650 5050 50  0001 C CNN
+F 3 "" H 1650 5050 50  0001 C CNN
+	1    2100 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 2800 4550 2    50   BiDi ~ 0
+CH0_1
+Text GLabel 2800 4450 2    50   BiDi ~ 0
+CH1_1
+Text GLabel 2800 4350 2    50   BiDi ~ 0
+CH2_1
+Text GLabel 2800 4650 2    50   BiDi ~ 0
+CH3_1
+Text GLabel 1350 4250 0    50   BiDi ~ 0
+CH4_1
+Text GLabel 1350 4650 0    50   BiDi ~ 0
+CH5_1
+Text GLabel 1350 4350 0    50   BiDi ~ 0
+CH6_1
+Text GLabel 1350 4550 0    50   BiDi ~ 0
+CH7_1
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC76A
+P 1300 5050
+AR Path="/5E7DC76A" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC76A" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 1300 4800 50  0001 C CNN
+F 1 "GND" H 1305 4877 50  0000 C CNN
+F 2 "" H 1300 5050 50  0001 C CNN
+F 3 "" H 1300 5050 50  0001 C CNN
+	1    1300 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4950 1300 4950
+Wire Wire Line
+	1300 4950 1300 5050
+Text GLabel 2800 4750 2    50   BiDi ~ 0
+A
+Text GLabel 2800 4850 2    50   BiDi ~ 0
+B
+Text GLabel 2800 4950 2    50   BiDi ~ 0
+C
+$Comp
+L power:VCC #PWR?
+U 1 1 5E7DC775
+P 2850 4150
+AR Path="/5E7DC775" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC775" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 2850 4000 50  0001 C CNN
+F 1 "VCC" H 2867 4323 50  0000 C CNN
+F 2 "" H 2850 4150 50  0001 C CNN
+F 3 "" H 2850 4150 50  0001 C CNN
+	1    2850 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4150 2850 4250
+Wire Wire Line
+	2850 4250 2650 4250
+Text GLabel 1350 4450 0    50   BiDi ~ 0
+CH1
+Text GLabel 1350 4750 0    50   BiDi ~ 0
+ENABLE
+Wire Wire Line
+	1350 4250 1500 4250
+Wire Wire Line
+	1350 4350 1500 4350
+Wire Wire Line
+	1350 4450 1500 4450
+Wire Wire Line
+	1350 4550 1500 4550
+Wire Wire Line
+	1350 4650 1500 4650
+Wire Wire Line
+	1500 4750 1350 4750
+Wire Wire Line
+	2650 4350 2800 4350
+Wire Wire Line
+	2800 4450 2650 4450
+Wire Wire Line
+	2650 4550 2800 4550
+Wire Wire Line
+	2800 4650 2650 4650
+Wire Wire Line
+	2650 4750 2800 4750
+Wire Wire Line
+	2800 4850 2650 4850
+Wire Wire Line
+	2800 4950 2650 4950
+Text GLabel 1700 3450 0    50   BiDi ~ 0
+CH0_1
+Text GLabel 1700 3550 0    50   BiDi ~ 0
+CH2_1
+Text GLabel 1700 3650 0    50   BiDi ~ 0
+CH4_1
+Text GLabel 1700 3750 0    50   BiDi ~ 0
+CH6_1
+Text GLabel 2450 3450 2    50   BiDi ~ 0
+CH1_1
+Text GLabel 2450 3550 2    50   BiDi ~ 0
+CH3_1
+Text GLabel 2450 3650 2    50   BiDi ~ 0
+CH5_1
+Text GLabel 2450 3750 2    50   BiDi ~ 0
+CH7_1
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC794
+P 2900 3450
+AR Path="/5E7DC794" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC794" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 2900 3200 50  0001 C CNN
+F 1 "GND" H 2905 3277 50  0000 C CNN
+F 2 "" H 2900 3450 50  0001 C CNN
+F 3 "" H 2900 3450 50  0001 C CNN
+	1    2900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC79A
+P 1250 3500
+AR Path="/5E7DC79A" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC79A" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 1250 3250 50  0001 C CNN
+F 1 "GND" H 1255 3327 50  0000 C CNN
+F 2 "" H 1250 3500 50  0001 C CNN
+F 3 "" H 1250 3500 50  0001 C CNN
+	1    1250 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 3500 1250 3350
+Wire Wire Line
+	1250 3350 1800 3350
+Wire Wire Line
+	2900 3450 2900 3350
+Wire Wire Line
+	2900 3350 2300 3350
+Wire Wire Line
+	1800 3450 1700 3450
+Wire Wire Line
+	1800 3550 1700 3550
+Wire Wire Line
+	1800 3650 1700 3650
+Wire Wire Line
+	1800 3750 1700 3750
+Wire Wire Line
+	2300 3450 2450 3450
+Wire Wire Line
+	2300 3550 2450 3550
+Wire Wire Line
+	2300 3650 2450 3650
+Wire Wire Line
+	2300 3750 2450 3750
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5E7DC7AC
+P 4650 3500
+AR Path="/5E7DC7AC" Ref="J?"  Part="1" 
+AR Path="/5E76D636/5E7DC7AC" Ref="J6"  Part="1" 
+F 0 "J6" H 4700 3917 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 4700 3826 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4650 3500 50  0001 C CNN
+F 3 "~" H 4650 3500 50  0001 C CNN
+	1    4650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX4617:MAX4617EUE+ U?
+U 1 1 5E7DC7B2
+P 4750 4550
+AR Path="/5E7DC7B2" Ref="U?"  Part="1" 
+AR Path="/5E76D636/5E7DC7B2" Ref="U6"  Part="1" 
+F 0 "U6" H 4725 5125 50  0000 C CNN
+F 1 "MAX4617EUE+" H 4725 5034 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4300 5000 50  0001 C CNN
+F 3 "" H 4300 5000 50  0001 C CNN
+	1    4750 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 5450 4500 2    50   BiDi ~ 0
+CH0_4
+Text GLabel 5450 4400 2    50   BiDi ~ 0
+CH1_4
+Text GLabel 5450 4300 2    50   BiDi ~ 0
+CH2_4
+Text GLabel 5450 4600 2    50   BiDi ~ 0
+CH3_4
+Text GLabel 4000 4200 0    50   BiDi ~ 0
+CH4_4
+Text GLabel 4000 4600 0    50   BiDi ~ 0
+CH5_4
+Text GLabel 4000 4300 0    50   BiDi ~ 0
+CH6_4
+Text GLabel 4000 4500 0    50   BiDi ~ 0
+CH7_4
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC7C0
+P 3950 5000
+AR Path="/5E7DC7C0" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC7C0" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 3950 4750 50  0001 C CNN
+F 1 "GND" H 3955 4827 50  0000 C CNN
+F 2 "" H 3950 5000 50  0001 C CNN
+F 3 "" H 3950 5000 50  0001 C CNN
+	1    3950 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4900 3950 4900
+Wire Wire Line
+	3950 4900 3950 5000
+Text GLabel 5450 4700 2    50   BiDi ~ 0
+A
+Text GLabel 5450 4800 2    50   BiDi ~ 0
+B
+Text GLabel 5450 4900 2    50   BiDi ~ 0
+C
+$Comp
+L power:VCC #PWR?
+U 1 1 5E7DC7CB
+P 5500 4100
+AR Path="/5E7DC7CB" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC7CB" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 5500 3950 50  0001 C CNN
+F 1 "VCC" H 5517 4273 50  0000 C CNN
+F 2 "" H 5500 4100 50  0001 C CNN
+F 3 "" H 5500 4100 50  0001 C CNN
+	1    5500 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4100 5500 4200
+Wire Wire Line
+	5500 4200 5300 4200
+Text GLabel 4000 4400 0    50   BiDi ~ 0
+CH4
+Text GLabel 4000 4700 0    50   BiDi ~ 0
+ENABLE
+Wire Wire Line
+	4000 4200 4150 4200
+Wire Wire Line
+	4000 4300 4150 4300
+Wire Wire Line
+	4000 4400 4150 4400
+Wire Wire Line
+	4000 4500 4150 4500
+Wire Wire Line
+	4000 4600 4150 4600
+Wire Wire Line
+	4150 4700 4000 4700
+Wire Wire Line
+	5300 4300 5450 4300
+Wire Wire Line
+	5450 4400 5300 4400
+Wire Wire Line
+	5300 4500 5450 4500
+Wire Wire Line
+	5450 4600 5300 4600
+Wire Wire Line
+	5300 4700 5450 4700
+Wire Wire Line
+	5450 4800 5300 4800
+Wire Wire Line
+	5450 4900 5300 4900
+Text GLabel 4350 3400 0    50   BiDi ~ 0
+CH0_4
+Text GLabel 4350 3500 0    50   BiDi ~ 0
+CH2_4
+Text GLabel 4350 3600 0    50   BiDi ~ 0
+CH4_4
+Text GLabel 4350 3700 0    50   BiDi ~ 0
+CH6_4
+Text GLabel 5100 3400 2    50   BiDi ~ 0
+CH1_4
+Text GLabel 5100 3500 2    50   BiDi ~ 0
+CH3_4
+Text GLabel 5100 3600 2    50   BiDi ~ 0
+CH5_4
+Text GLabel 5100 3700 2    50   BiDi ~ 0
+CH7_4
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC7EA
+P 5550 3400
+AR Path="/5E7DC7EA" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC7EA" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 5550 3150 50  0001 C CNN
+F 1 "GND" H 5555 3227 50  0000 C CNN
+F 2 "" H 5550 3400 50  0001 C CNN
+F 3 "" H 5550 3400 50  0001 C CNN
+	1    5550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC7F0
+P 3900 3450
+AR Path="/5E7DC7F0" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC7F0" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 3900 3200 50  0001 C CNN
+F 1 "GND" H 3905 3277 50  0000 C CNN
+F 2 "" H 3900 3450 50  0001 C CNN
+F 3 "" H 3900 3450 50  0001 C CNN
+	1    3900 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3450 3900 3300
+Wire Wire Line
+	3900 3300 4450 3300
+Wire Wire Line
+	5550 3400 5550 3300
+Wire Wire Line
+	5550 3300 4950 3300
+Wire Wire Line
+	4450 3400 4350 3400
+Wire Wire Line
+	4450 3500 4350 3500
+Wire Wire Line
+	4450 3600 4350 3600
+Wire Wire Line
+	4450 3700 4350 3700
+Wire Wire Line
+	4950 3400 5100 3400
+Wire Wire Line
+	4950 3500 5100 3500
+Wire Wire Line
+	4950 3600 5100 3600
+Wire Wire Line
+	4950 3700 5100 3700
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5E7DC802
+P 7250 3500
+AR Path="/5E7DC802" Ref="J?"  Part="1" 
+AR Path="/5E76D636/5E7DC802" Ref="J8"  Part="1" 
+F 0 "J8" H 7300 3917 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 7300 3826 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 7250 3500 50  0001 C CNN
+F 3 "~" H 7250 3500 50  0001 C CNN
+	1    7250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX4617:MAX4617EUE+ U?
+U 1 1 5E7DC808
+P 7350 4550
+AR Path="/5E7DC808" Ref="U?"  Part="1" 
+AR Path="/5E76D636/5E7DC808" Ref="U8"  Part="1" 
+F 0 "U8" H 7325 5125 50  0000 C CNN
+F 1 "MAX4617EUE+" H 7325 5034 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 6900 5000 50  0001 C CNN
+F 3 "" H 6900 5000 50  0001 C CNN
+	1    7350 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 8050 4500 2    50   BiDi ~ 0
+CH0_7
+Text GLabel 8050 4400 2    50   BiDi ~ 0
+CH1_7
+Text GLabel 8050 4300 2    50   BiDi ~ 0
+CH2_7
+Text GLabel 8050 4600 2    50   BiDi ~ 0
+CH3_7
+Text GLabel 6600 4200 0    50   BiDi ~ 0
+CH4_7
+Text GLabel 6600 4600 0    50   BiDi ~ 0
+CH5_7
+Text GLabel 6600 4300 0    50   BiDi ~ 0
+CH6_7
+Text GLabel 6600 4500 0    50   BiDi ~ 0
+CH7_7
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC816
+P 6550 5000
+AR Path="/5E7DC816" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC816" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 6550 4750 50  0001 C CNN
+F 1 "GND" H 6555 4827 50  0000 C CNN
+F 2 "" H 6550 5000 50  0001 C CNN
+F 3 "" H 6550 5000 50  0001 C CNN
+	1    6550 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4900 6550 4900
+Wire Wire Line
+	6550 4900 6550 5000
+Text GLabel 8050 4700 2    50   BiDi ~ 0
+A
+Text GLabel 8050 4800 2    50   BiDi ~ 0
+B
+Text GLabel 8050 4900 2    50   BiDi ~ 0
+C
+$Comp
+L power:VCC #PWR?
+U 1 1 5E7DC821
+P 8100 4100
+AR Path="/5E7DC821" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC821" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 8100 3950 50  0001 C CNN
+F 1 "VCC" H 8117 4273 50  0000 C CNN
+F 2 "" H 8100 4100 50  0001 C CNN
+F 3 "" H 8100 4100 50  0001 C CNN
+	1    8100 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 4100 8100 4200
+Wire Wire Line
+	8100 4200 7900 4200
+Text GLabel 6600 4400 0    50   BiDi ~ 0
+CH7
+Text GLabel 6600 4700 0    50   BiDi ~ 0
+ENABLE
+Wire Wire Line
+	6600 4200 6750 4200
+Wire Wire Line
+	6600 4300 6750 4300
+Wire Wire Line
+	6600 4400 6750 4400
+Wire Wire Line
+	6600 4500 6750 4500
+Wire Wire Line
+	6600 4600 6750 4600
+Wire Wire Line
+	6750 4700 6600 4700
+Wire Wire Line
+	7900 4300 8050 4300
+Wire Wire Line
+	8050 4400 7900 4400
+Wire Wire Line
+	7900 4500 8050 4500
+Wire Wire Line
+	8050 4600 7900 4600
+Wire Wire Line
+	7900 4700 8050 4700
+Wire Wire Line
+	8050 4800 7900 4800
+Wire Wire Line
+	8050 4900 7900 4900
+Text GLabel 6950 3400 0    50   BiDi ~ 0
+CH0_7
+Text GLabel 6950 3500 0    50   BiDi ~ 0
+CH2_7
+Text GLabel 6950 3600 0    50   BiDi ~ 0
+CH4_7
+Text GLabel 6950 3700 0    50   BiDi ~ 0
+CH6_7
+Text GLabel 7700 3400 2    50   BiDi ~ 0
+CH1_7
+Text GLabel 7700 3500 2    50   BiDi ~ 0
+CH3_7
+Text GLabel 7700 3600 2    50   BiDi ~ 0
+CH5_7
+Text GLabel 7700 3700 2    50   BiDi ~ 0
+CH7_7
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC840
+P 8150 3400
+AR Path="/5E7DC840" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC840" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 8150 3150 50  0001 C CNN
+F 1 "GND" H 8155 3227 50  0000 C CNN
+F 2 "" H 8150 3400 50  0001 C CNN
+F 3 "" H 8150 3400 50  0001 C CNN
+	1    8150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC846
+P 6500 3450
+AR Path="/5E7DC846" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC846" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 6500 3200 50  0001 C CNN
+F 1 "GND" H 6505 3277 50  0000 C CNN
+F 2 "" H 6500 3450 50  0001 C CNN
+F 3 "" H 6500 3450 50  0001 C CNN
+	1    6500 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3450 6500 3300
+Wire Wire Line
+	6500 3300 7050 3300
+Wire Wire Line
+	8150 3400 8150 3300
+Wire Wire Line
+	8150 3300 7550 3300
+Wire Wire Line
+	7050 3400 6950 3400
+Wire Wire Line
+	7050 3500 6950 3500
+Wire Wire Line
+	7050 3600 6950 3600
+Wire Wire Line
+	7050 3700 6950 3700
+Wire Wire Line
+	7550 3400 7700 3400
+Wire Wire Line
+	7550 3500 7700 3500
+Wire Wire Line
+	7550 3600 7700 3600
+Wire Wire Line
+	7550 3700 7700 3700
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5E7DC858
+P 9600 3500
+AR Path="/5E7DC858" Ref="J?"  Part="1" 
+AR Path="/5E76D636/5E7DC858" Ref="J10"  Part="1" 
+F 0 "J10" H 9650 3917 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 9650 3826 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 9600 3500 50  0001 C CNN
+F 3 "~" H 9600 3500 50  0001 C CNN
+	1    9600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX4617:MAX4617EUE+ U?
+U 1 1 5E7DC85E
+P 9700 4550
+AR Path="/5E7DC85E" Ref="U?"  Part="1" 
+AR Path="/5E76D636/5E7DC85E" Ref="U10"  Part="1" 
+F 0 "U10" H 9675 5125 50  0000 C CNN
+F 1 "MAX4617EUE+" H 9675 5034 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 9250 5000 50  0001 C CNN
+F 3 "" H 9250 5000 50  0001 C CNN
+	1    9700 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 10400 4500 2    50   BiDi ~ 0
+CH0_9
+Text GLabel 10400 4400 2    50   BiDi ~ 0
+CH1_9
+Text GLabel 10400 4300 2    50   BiDi ~ 0
+CH2_9
+Text GLabel 10400 4600 2    50   BiDi ~ 0
+CH3_9
+Text GLabel 8950 4200 0    50   BiDi ~ 0
+CH4_9
+Text GLabel 8950 4600 0    50   BiDi ~ 0
+CH5_9
+Text GLabel 8950 4300 0    50   BiDi ~ 0
+CH6_9
+Text GLabel 8950 4500 0    50   BiDi ~ 0
+CH7_9
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC86C
+P 8900 5000
+AR Path="/5E7DC86C" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC86C" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 8900 4750 50  0001 C CNN
+F 1 "GND" H 8905 4827 50  0000 C CNN
+F 2 "" H 8900 5000 50  0001 C CNN
+F 3 "" H 8900 5000 50  0001 C CNN
+	1    8900 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 4900 8900 4900
+Wire Wire Line
+	8900 4900 8900 5000
+Text GLabel 10400 4700 2    50   BiDi ~ 0
+A
+Text GLabel 10400 4800 2    50   BiDi ~ 0
+B
+Text GLabel 10400 4900 2    50   BiDi ~ 0
+C
+$Comp
+L power:VCC #PWR?
+U 1 1 5E7DC877
+P 10450 4100
+AR Path="/5E7DC877" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC877" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 10450 3950 50  0001 C CNN
+F 1 "VCC" H 10467 4273 50  0000 C CNN
+F 2 "" H 10450 4100 50  0001 C CNN
+F 3 "" H 10450 4100 50  0001 C CNN
+	1    10450 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 4100 10450 4200
+Wire Wire Line
+	10450 4200 10250 4200
+Text GLabel 8950 4400 0    50   BiDi ~ 0
+CH9
+Text GLabel 8950 4700 0    50   BiDi ~ 0
+ENABLE
+Wire Wire Line
+	8950 4200 9100 4200
+Wire Wire Line
+	8950 4300 9100 4300
+Wire Wire Line
+	8950 4400 9100 4400
+Wire Wire Line
+	8950 4500 9100 4500
+Wire Wire Line
+	8950 4600 9100 4600
+Wire Wire Line
+	9100 4700 8950 4700
+Wire Wire Line
+	10250 4300 10400 4300
+Wire Wire Line
+	10400 4400 10250 4400
+Wire Wire Line
+	10250 4500 10400 4500
+Wire Wire Line
+	10400 4600 10250 4600
+Wire Wire Line
+	10250 4700 10400 4700
+Wire Wire Line
+	10400 4800 10250 4800
+Wire Wire Line
+	10400 4900 10250 4900
+Text GLabel 9300 3400 0    50   BiDi ~ 0
+CH0_9
+Text GLabel 9300 3500 0    50   BiDi ~ 0
+CH2_9
+Text GLabel 9300 3600 0    50   BiDi ~ 0
+CH4_9
+Text GLabel 9300 3700 0    50   BiDi ~ 0
+CH6_9
+Text GLabel 10050 3400 2    50   BiDi ~ 0
+CH1_9
+Text GLabel 10050 3500 2    50   BiDi ~ 0
+CH3_9
+Text GLabel 10050 3600 2    50   BiDi ~ 0
+CH5_9
+Text GLabel 10050 3700 2    50   BiDi ~ 0
+CH7_9
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC896
+P 10500 3400
+AR Path="/5E7DC896" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC896" Ref="#PWR040"  Part="1" 
+F 0 "#PWR040" H 10500 3150 50  0001 C CNN
+F 1 "GND" H 10505 3227 50  0000 C CNN
+F 2 "" H 10500 3400 50  0001 C CNN
+F 3 "" H 10500 3400 50  0001 C CNN
+	1    10500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E7DC89C
+P 8850 3450
+AR Path="/5E7DC89C" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7DC89C" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 8850 3200 50  0001 C CNN
+F 1 "GND" H 8855 3277 50  0000 C CNN
+F 2 "" H 8850 3450 50  0001 C CNN
+F 3 "" H 8850 3450 50  0001 C CNN
+	1    8850 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3450 8850 3300
+Wire Wire Line
+	8850 3300 9400 3300
+Wire Wire Line
+	10500 3400 10500 3300
+Wire Wire Line
+	10500 3300 9900 3300
+Wire Wire Line
+	9400 3400 9300 3400
+Wire Wire Line
+	9400 3500 9300 3500
+Wire Wire Line
+	9400 3600 9300 3600
+Wire Wire Line
+	9400 3700 9300 3700
+Wire Wire Line
+	9900 3400 10050 3400
+Wire Wire Line
+	9900 3500 10050 3500
+Wire Wire Line
+	9900 3600 10050 3600
+Wire Wire Line
+	9900 3700 10050 3700
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5E7F8D04
+P 1950 5950
+AR Path="/5E7F8D04" Ref="J?"  Part="1" 
+AR Path="/5E76D636/5E7F8D04" Ref="J1"  Part="1" 
+F 0 "J1" H 2000 6367 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 2000 6276 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1950 5950 50  0001 C CNN
+F 3 "~" H 1950 5950 50  0001 C CNN
+	1    1950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX4617:MAX4617EUE+ U?
+U 1 1 5E7F8D0A
+P 2050 7000
+AR Path="/5E7F8D0A" Ref="U?"  Part="1" 
+AR Path="/5E76D636/5E7F8D0A" Ref="U1"  Part="1" 
+F 0 "U1" H 2025 7575 50  0000 C CNN
+F 1 "MAX4617EUE+" H 2025 7484 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 1600 7450 50  0001 C CNN
+F 3 "" H 1600 7450 50  0001 C CNN
+	1    2050 7000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2750 6950 2    50   BiDi ~ 0
+CH0_2
+Text GLabel 2750 6850 2    50   BiDi ~ 0
+CH1_2
+Text GLabel 2750 6750 2    50   BiDi ~ 0
+CH2_2
+Text GLabel 2750 7050 2    50   BiDi ~ 0
+CH3_2
+Text GLabel 1300 6650 0    50   BiDi ~ 0
+CH4_2
+Text GLabel 1300 7050 0    50   BiDi ~ 0
+CH5_2
+Text GLabel 1300 6750 0    50   BiDi ~ 0
+CH6_2
+Text GLabel 1300 6950 0    50   BiDi ~ 0
+CH7_2
+$Comp
+L power:GND #PWR?
+U 1 1 5E7F8D18
+P 1250 7450
+AR Path="/5E7F8D18" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7F8D18" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 1250 7200 50  0001 C CNN
+F 1 "GND" H 1255 7277 50  0000 C CNN
+F 2 "" H 1250 7450 50  0001 C CNN
+F 3 "" H 1250 7450 50  0001 C CNN
+	1    1250 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 7350 1250 7350
+Wire Wire Line
+	1250 7350 1250 7450
+Text GLabel 2750 7150 2    50   BiDi ~ 0
+A
+Text GLabel 2750 7250 2    50   BiDi ~ 0
+B
+Text GLabel 2750 7350 2    50   BiDi ~ 0
+C
+$Comp
+L power:VCC #PWR?
+U 1 1 5E7F8D23
+P 2800 6550
+AR Path="/5E7F8D23" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7F8D23" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 2800 6400 50  0001 C CNN
+F 1 "VCC" H 2817 6723 50  0000 C CNN
+F 2 "" H 2800 6550 50  0001 C CNN
+F 3 "" H 2800 6550 50  0001 C CNN
+	1    2800 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 6550 2800 6650
+Wire Wire Line
+	2800 6650 2600 6650
+Text GLabel 1300 6850 0    50   BiDi ~ 0
+CH2
+Text GLabel 1300 7150 0    50   BiDi ~ 0
+ENABLE
+Wire Wire Line
+	1300 6650 1450 6650
+Wire Wire Line
+	1300 6750 1450 6750
+Wire Wire Line
+	1300 6850 1450 6850
+Wire Wire Line
+	1300 6950 1450 6950
+Wire Wire Line
+	1300 7050 1450 7050
+Wire Wire Line
+	1450 7150 1300 7150
+Wire Wire Line
+	2600 6750 2750 6750
+Wire Wire Line
+	2750 6850 2600 6850
+Wire Wire Line
+	2600 6950 2750 6950
+Wire Wire Line
+	2750 7050 2600 7050
+Wire Wire Line
+	2600 7150 2750 7150
+Wire Wire Line
+	2750 7250 2600 7250
+Wire Wire Line
+	2750 7350 2600 7350
+Text GLabel 1650 5850 0    50   BiDi ~ 0
+CH0_2
+Text GLabel 1650 5950 0    50   BiDi ~ 0
+CH2_2
+Text GLabel 1650 6050 0    50   BiDi ~ 0
+CH4_2
+Text GLabel 1650 6150 0    50   BiDi ~ 0
+CH6_2
+Text GLabel 2400 5850 2    50   BiDi ~ 0
+CH1_2
+Text GLabel 2400 5950 2    50   BiDi ~ 0
+CH3_2
+Text GLabel 2400 6050 2    50   BiDi ~ 0
+CH5_2
+Text GLabel 2400 6150 2    50   BiDi ~ 0
+CH7_2
+$Comp
+L power:GND #PWR?
+U 1 1 5E7F8D42
+P 2850 5850
+AR Path="/5E7F8D42" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7F8D42" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 2850 5600 50  0001 C CNN
+F 1 "GND" H 2855 5677 50  0000 C CNN
+F 2 "" H 2850 5850 50  0001 C CNN
+F 3 "" H 2850 5850 50  0001 C CNN
+	1    2850 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E7F8D48
+P 1200 5900
+AR Path="/5E7F8D48" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7F8D48" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 1200 5650 50  0001 C CNN
+F 1 "GND" H 1205 5727 50  0000 C CNN
+F 2 "" H 1200 5900 50  0001 C CNN
+F 3 "" H 1200 5900 50  0001 C CNN
+	1    1200 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 5900 1200 5750
+Wire Wire Line
+	1200 5750 1750 5750
+Wire Wire Line
+	2850 5850 2850 5750
+Wire Wire Line
+	2850 5750 2250 5750
+Wire Wire Line
+	1750 5850 1650 5850
+Wire Wire Line
+	1750 5950 1650 5950
+Wire Wire Line
+	1750 6050 1650 6050
+Wire Wire Line
+	1750 6150 1650 6150
+Wire Wire Line
+	2250 5850 2400 5850
+Wire Wire Line
+	2250 5950 2400 5950
+Wire Wire Line
+	2250 6050 2400 6050
+Wire Wire Line
+	2250 6150 2400 6150
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5E7F8D5A
+P 4600 5900
+AR Path="/5E7F8D5A" Ref="J?"  Part="1" 
+AR Path="/5E76D636/5E7F8D5A" Ref="J5"  Part="1" 
+F 0 "J5" H 4650 6317 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 4650 6226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4600 5900 50  0001 C CNN
+F 3 "~" H 4600 5900 50  0001 C CNN
+	1    4600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX4617:MAX4617EUE+ U?
+U 1 1 5E7F8D60
+P 4700 6950
+AR Path="/5E7F8D60" Ref="U?"  Part="1" 
+AR Path="/5E76D636/5E7F8D60" Ref="U5"  Part="1" 
+F 0 "U5" H 4675 7525 50  0000 C CNN
+F 1 "MAX4617EUE+" H 4675 7434 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4250 7400 50  0001 C CNN
+F 3 "" H 4250 7400 50  0001 C CNN
+	1    4700 6950
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 6900 2    50   BiDi ~ 0
+CH0_5
+Text GLabel 5400 6800 2    50   BiDi ~ 0
+CH1_5
+Text GLabel 5400 6700 2    50   BiDi ~ 0
+CH2_5
+Text GLabel 5400 7000 2    50   BiDi ~ 0
+CH3_5
+Text GLabel 3950 6600 0    50   BiDi ~ 0
+CH4_5
+Text GLabel 3950 7000 0    50   BiDi ~ 0
+CH5_5
+Text GLabel 3950 6700 0    50   BiDi ~ 0
+CH6_5
+Text GLabel 3950 6900 0    50   BiDi ~ 0
+CH7_5
+$Comp
+L power:GND #PWR?
+U 1 1 5E7F8D6E
+P 3900 7400
+AR Path="/5E7F8D6E" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7F8D6E" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 3900 7150 50  0001 C CNN
+F 1 "GND" H 3905 7227 50  0000 C CNN
+F 2 "" H 3900 7400 50  0001 C CNN
+F 3 "" H 3900 7400 50  0001 C CNN
+	1    3900 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 7300 3900 7300
+Wire Wire Line
+	3900 7300 3900 7400
+Text GLabel 5400 7100 2    50   BiDi ~ 0
+A
+Text GLabel 5400 7200 2    50   BiDi ~ 0
+B
+Text GLabel 5400 7300 2    50   BiDi ~ 0
+C
+$Comp
+L power:VCC #PWR?
+U 1 1 5E7F8D79
+P 5450 6500
+AR Path="/5E7F8D79" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7F8D79" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 5450 6350 50  0001 C CNN
+F 1 "VCC" H 5467 6673 50  0000 C CNN
+F 2 "" H 5450 6500 50  0001 C CNN
+F 3 "" H 5450 6500 50  0001 C CNN
+	1    5450 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 6500 5450 6600
+Wire Wire Line
+	5450 6600 5250 6600
+Text GLabel 3950 6800 0    50   BiDi ~ 0
+CH5
+Text GLabel 3950 7100 0    50   BiDi ~ 0
+ENABLE
+Wire Wire Line
+	3950 6600 4100 6600
+Wire Wire Line
+	3950 6700 4100 6700
+Wire Wire Line
+	3950 6800 4100 6800
+Wire Wire Line
+	3950 6900 4100 6900
+Wire Wire Line
+	3950 7000 4100 7000
+Wire Wire Line
+	4100 7100 3950 7100
+Wire Wire Line
+	5250 6700 5400 6700
+Wire Wire Line
+	5400 6800 5250 6800
+Wire Wire Line
+	5250 6900 5400 6900
+Wire Wire Line
+	5400 7000 5250 7000
+Wire Wire Line
+	5250 7100 5400 7100
+Wire Wire Line
+	5400 7200 5250 7200
+Wire Wire Line
+	5400 7300 5250 7300
+Text GLabel 4300 5800 0    50   BiDi ~ 0
+CH0_5
+Text GLabel 4300 5900 0    50   BiDi ~ 0
+CH2_5
+Text GLabel 4300 6000 0    50   BiDi ~ 0
+CH4_5
+Text GLabel 4300 6100 0    50   BiDi ~ 0
+CH6_5
+Text GLabel 5050 5800 2    50   BiDi ~ 0
+CH1_5
+Text GLabel 5050 5900 2    50   BiDi ~ 0
+CH3_5
+Text GLabel 5050 6000 2    50   BiDi ~ 0
+CH5_5
+Text GLabel 5050 6100 2    50   BiDi ~ 0
+CH7_5
+$Comp
+L power:GND #PWR?
+U 1 1 5E7F8D98
+P 5500 5800
+AR Path="/5E7F8D98" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7F8D98" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 5500 5550 50  0001 C CNN
+F 1 "GND" H 5505 5627 50  0000 C CNN
+F 2 "" H 5500 5800 50  0001 C CNN
+F 3 "" H 5500 5800 50  0001 C CNN
+	1    5500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E7F8D9E
+P 3850 5850
+AR Path="/5E7F8D9E" Ref="#PWR?"  Part="1" 
+AR Path="/5E76D636/5E7F8D9E" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 3850 5600 50  0001 C CNN
+F 1 "GND" H 3855 5677 50  0000 C CNN
+F 2 "" H 3850 5850 50  0001 C CNN
+F 3 "" H 3850 5850 50  0001 C CNN
+	1    3850 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 5850 3850 5700
+Wire Wire Line
+	3850 5700 4400 5700
+Wire Wire Line
+	5500 5800 5500 5700
+Wire Wire Line
+	5500 5700 4900 5700
+Wire Wire Line
+	4400 5800 4300 5800
+Wire Wire Line
+	4400 5900 4300 5900
+Wire Wire Line
+	4400 6000 4300 6000
+Wire Wire Line
+	4400 6100 4300 6100
+Wire Wire Line
+	4900 5800 5050 5800
+Wire Wire Line
+	4900 5900 5050 5900
+Wire Wire Line
+	4900 6000 5050 6000
+Wire Wire Line
+	4900 6100 5050 6100
+$EndSCHEMATC
