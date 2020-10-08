@@ -1,0 +1,25 @@
+2020-09-07T21:14:14.120664700255-21:14:14 **** Incremental Build of configuration Debug for project HPPSI_80chMux ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/main.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI/export/HPPSI/sw/HPPSI/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+000-'Finished building: ../src/main.c'
+000-' '
+000-'Building target: HPPSI_80chMux.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI/export/HPPSI/sw/HPPSI/standalone_domain/bsplib/lib -o "HPPSI_80chMux.elf"  ./src/debounce.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: HPPSI_80chMux.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size HPPSI_80chMux.elf  |tee "HPPSI_80chMux.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  46836	   1632	  33720	  82188	  1410c	HPPSI_80chMux.elf
+000-'Finished building: HPPSI_80chMux.elf.size'
+000-' '
+00255-
+21:14:15 Build Finished (took 955ms)
+

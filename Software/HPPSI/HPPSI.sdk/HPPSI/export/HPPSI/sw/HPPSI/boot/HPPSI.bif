@@ -1,0 +1,7 @@
+/*HPPSI*/
+the_ROM_image:
+{
+  [bootloader]<HPPSI/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

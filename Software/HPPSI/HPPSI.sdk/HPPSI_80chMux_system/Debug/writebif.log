@@ -1,0 +1,90 @@
+TRACE::2020-08-31.16:01:53::SCWBifWriter::Found the complete platform C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI/export/HPPSI/HPPSI.xpfm
+TRACE::2020-08-31.16:01:54::SCWBifWriter::hardware databse : design_1_wrapper_1
+TRACE::2020-08-31.16:01:54::SCWBifWriter::bitstream found in the design
+TRACE::2020-08-31.16:01:54::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-08-31.16:01:54::SCWBifWriter::proc type : 
+TRACE::2020-08-31.16:01:54::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-08-31.16:01:54::SCWBifWriter::Device type is : zynq
+TRACE::2020-08-31.16:01:54::SCWBifWriter::Writing BIF to file : C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI_80chMux_system/Debug/system.bif
+TRACE::2020-08-31.16:01:54::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-08-31.16:05:35::SCWBifWriter::Found the complete platform C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI/export/HPPSI/HPPSI.xpfm
+TRACE::2020-08-31.16:05:35::SCWBifWriter::hardware databse : design_1_wrapper_1
+TRACE::2020-08-31.16:05:35::SCWBifWriter::bitstream found in the design
+TRACE::2020-08-31.16:05:35::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-08-31.16:05:35::SCWBifWriter::proc type : 
+TRACE::2020-08-31.16:05:35::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-08-31.16:05:35::SCWBifWriter::Device type is : zynq
+TRACE::2020-08-31.16:05:35::SCWBifWriter::Writing BIF to file : C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI_80chMux_system/Debug/system.bif
+TRACE::2020-08-31.16:05:35::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-08-31.16:09:35::SCWBifWriter::Found the complete platform C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI/export/HPPSI/HPPSI.xpfm
+TRACE::2020-08-31.16:09:36::SCWBifWriter::hardware databse : design_1_wrapper_1
+TRACE::2020-08-31.16:09:36::SCWBifWriter::bitstream found in the design
+TRACE::2020-08-31.16:09:36::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-08-31.16:09:36::SCWBifWriter::proc type : 
+TRACE::2020-08-31.16:09:36::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-08-31.16:09:36::SCWBifWriter::Device type is : zynq
+TRACE::2020-08-31.16:09:36::SCWBifWriter::Writing BIF to file : C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI_80chMux_system/Debug/system.bif
+TRACE::2020-08-31.16:09:36::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-08-31.16:13:05::SCWBifWriter::Found the complete platform C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI/export/HPPSI/HPPSI.xpfm
+TRACE::2020-08-31.16:13:05::SCWBifWriter::hardware databse : design_1_wrapper_1
+TRACE::2020-08-31.16:13:05::SCWBifWriter::bitstream found in the design
+TRACE::2020-08-31.16:13:05::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-08-31.16:13:05::SCWBifWriter::proc type : 
+TRACE::2020-08-31.16:13:05::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-08-31.16:13:05::SCWBifWriter::Device type is : zynq
+TRACE::2020-08-31.16:13:05::SCWBifWriter::Writing BIF to file : C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI_80chMux_system/Debug/system.bif
+TRACE::2020-08-31.16:13:05::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-08-31.16:15:30::SCWBifWriter::Found the complete platform C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI/export/HPPSI/HPPSI.xpfm
+TRACE::2020-08-31.16:15:30::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2020-08-31.16:15:30::SCWBifWriter::bitstream found in the design
+TRACE::2020-08-31.16:15:30::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-08-31.16:15:30::SCWBifWriter::proc type : 
+TRACE::2020-08-31.16:15:30::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-08-31.16:15:30::SCWBifWriter::Device type is : zynq
+TRACE::2020-08-31.16:15:30::SCWBifWriter::Writing BIF to file : C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI_80chMux_system/Debug/system.bif
+TRACE::2020-08-31.16:15:30::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-09-01.14:31:39::SCWBifWriter::Found the complete platform C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI/export/HPPSI/HPPSI.xpfm
+TRACE::2020-09-01.14:31:40::SCWBifWriter::hardware databse : design_1_wrapper_0
+TRACE::2020-09-01.14:31:40::SCWBifWriter::bitstream found in the design
+TRACE::2020-09-01.14:31:40::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-09-01.14:31:40::SCWBifWriter::proc type : 
+TRACE::2020-09-01.14:31:40::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-09-01.14:31:40::SCWBifWriter::Device type is : zynq
+TRACE::2020-09-01.14:31:40::SCWBifWriter::Writing BIF to file : C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI_80chMux_system/Debug/system.bif
+TRACE::2020-09-01.14:31:40::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-09-01.14:32:58::SCWBifWriter::Found the complete platform C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI/export/HPPSI/HPPSI.xpfm
+TRACE::2020-09-01.14:32:59::SCWBifWriter::hardware databse : design_1_wrapper_0
+TRACE::2020-09-01.14:32:59::SCWBifWriter::bitstream found in the design
+TRACE::2020-09-01.14:32:59::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-09-01.14:32:59::SCWBifWriter::proc type : 
+TRACE::2020-09-01.14:32:59::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-09-01.14:32:59::SCWBifWriter::Device type is : zynq
+TRACE::2020-09-01.14:32:59::SCWBifWriter::Writing BIF to file : C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI_80chMux_system/Debug/system.bif
+TRACE::2020-09-01.14:32:59::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-09-03.23:54:19::SCWBifWriter::Found the complete platform C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI/export/HPPSI/HPPSI.xpfm
+TRACE::2020-09-03.23:54:20::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2020-09-03.23:54:20::SCWBifWriter::bitstream found in the design
+TRACE::2020-09-03.23:54:20::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-09-03.23:54:20::SCWBifWriter::proc type : 
+TRACE::2020-09-03.23:54:20::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-09-03.23:54:20::SCWBifWriter::Device type is : zynq
+TRACE::2020-09-03.23:54:20::SCWBifWriter::Writing BIF to file : C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI_80chMux_system/Debug/system.bif
+TRACE::2020-09-03.23:54:20::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-09-03.23:58:11::SCWBifWriter::Found the complete platform C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI/export/HPPSI/HPPSI.xpfm
+TRACE::2020-09-03.23:58:11::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2020-09-03.23:58:11::SCWBifWriter::bitstream found in the design
+TRACE::2020-09-03.23:58:11::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-09-03.23:58:11::SCWBifWriter::proc type : 
+TRACE::2020-09-03.23:58:11::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-09-03.23:58:11::SCWBifWriter::Device type is : zynq
+TRACE::2020-09-03.23:58:11::SCWBifWriter::Writing BIF to file : C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI_80chMux_system/Debug/system.bif
+TRACE::2020-09-03.23:58:11::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2020-09-04.00:24:37::SCWBifWriter::Found the complete platform C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI/export/HPPSI/HPPSI.xpfm
+TRACE::2020-09-04.00:24:37::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2020-09-04.00:24:37::SCWBifWriter::bitstream found in the design
+TRACE::2020-09-04.00:24:37::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2020-09-04.00:24:37::SCWBifWriter::proc type : 
+TRACE::2020-09-04.00:24:37::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2020-09-04.00:24:37::SCWBifWriter::Device type is : zynq
+TRACE::2020-09-04.00:24:37::SCWBifWriter::Writing BIF to file : C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.sdk/HPPSI_80chMux_system/Debug/system.bif
+TRACE::2020-09-04.00:24:37::SCWBifWriter::Writing the Zynq Baremetal bif 

@@ -1,0 +1,53 @@
+#define _XSM_CH_AUX_0    16
+#define _XSM_CH_AUX_1    17
+#define _XSM_CH_AUX_2    18
+#define _XSM_CH_AUX_3    19
+#define _XSM_CH_AUX_4    20
+#define _XSM_CH_AUX_5    21
+#define _XSM_CH_AUX_6    22
+#define _XSM_CH_AUX_7    23
+#define _XSM_CH_AUX_8    24
+#define _XSM_CH_AUX_9    25
+#define _XSM_CH_AUX_10   26
+#define _XSM_CH_AUX_11   27
+#define _XSM_CH_AUX_12   28
+#define _XSM_CH_AUX_13   29
+#define _XSM_CH_AUX_14   30
+#define _XSM_CH_AUX_15   31
+
+#define CORA_A0		_XSM_CH_AUX_1
+#define CORA_A1		_XSM_CH_AUX_9
+#define CORA_A2		_XSM_CH_AUX_6
+#define CORA_A3		_XSM_CH_AUX_15
+#define CORA_A4		_XSM_CH_AUX_5
+#define CORA_A5		_XSM_CH_AUX_13
+#define CORA_A6		_XSM_CH_AUX_12
+#define CORA_A8		_XSM_CH_AUX_0
+#define CORA_A10	_XSM_CH_AUX_8
+#define CORA_VP		XSM_CH_VPVN
+
+#define NUM_OF_CHANNELS 80
+#define NUM_OF_INTMUX_CHANNEL 10
+#define NUM_OF_EXTMUX_CHANNEL 8
+#define MAX_SAMPLES_PER_CHANNEL 64
+
+#define BUTTON_GPIO0_CHANNEL 1
+#define LED_GPIO0_CHANNEL 2
+
+#define MUX_SE_GPIO1_CHANNEL 1
+
+#define DEBUG_PRINT
+//#define MEASURE_TIMING
+
+#define ALL_MUX_DISABLE() XGpio_DiscreteWrite(&Gpio1,1,0);XGpio_DiscreteWrite(&Gpio1,2,0);
+#define ALL_MUX_CH_1() XGpio_DiscreteWrite(&Gpio1,1,0x88888888);XGpio_DiscreteWrite(&Gpio1,2,0x88);
+#define ALL_MUX_CH_2() XGpio_DiscreteWrite(&Gpio1,1,0x99999999);XGpio_DiscreteWrite(&Gpio1,2,0x99);
+#define ALL_MUX_CH_3() XGpio_DiscreteWrite(&Gpio1,1,0xAAAAAAAA);XGpio_DiscreteWrite(&Gpio1,2,0xAA);
+#define ALL_MUX_CH_4() XGpio_DiscreteWrite(&Gpio1,1,0xBBBBBBBB);XGpio_DiscreteWrite(&Gpio1,2,0xBB);
+#define ALL_MUX_CH_5() XGpio_DiscreteWrite(&Gpio1,1,0xCCCCCCCC);XGpio_DiscreteWrite(&Gpio1,2,0xCC);
+#define ALL_MUX_CH_6() XGpio_DiscreteWrite(&Gpio1,1,0xDDDDDDDD);XGpio_DiscreteWrite(&Gpio1,2,0xDD);
+#define ALL_MUX_CH_7() XGpio_DiscreteWrite(&Gpio1,1,0xEEEEEEEE);XGpio_DiscreteWrite(&Gpio1,2,0xEE);
+#define ALL_MUX_CH_8() XGpio_DiscreteWrite(&Gpio1,1,0xFFFFFFFF);XGpio_DiscreteWrite(&Gpio1,2,0xFF);
+
+
+

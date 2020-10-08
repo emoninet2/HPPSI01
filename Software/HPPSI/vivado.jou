@@ -1,0 +1,140 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Aug 31 15:24:08 2020
+# Process ID: 8784
+# Current directory: C:/Users/hr193/Desktop/HPPSI/HPPSI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7244 C:\Users\hr193\Desktop\HPPSI\HPPSI\HPPSI.xpr
+# Log file: C:/Users/hr193/Desktop/HPPSI/HPPSI/vivado.log
+# Journal file: C:/Users/hr193/Desktop/HPPSI/HPPSI\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.xpr
+update_compile_order -fileset sources_1
+write_hw_platform -fixed -force  -include_bit -file C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.xsa
+write_hw_platform -fixed -force  -include_bit -file C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.xsa
+open_bd_design {C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.srcs/sources_1/bd/design_1/design_1.bd}
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+write_hw_platform -fixed -force  -include_bit -file C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.xsa
+open_hw_manager
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z007s_1]
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z007s_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+open_bd_design {C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.srcs/sources_1/bd/design_1/design_1.bd}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -force  -include_bit -file C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.xsa
+open_bd_design {C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.srcs/sources_1/bd/design_1/design_1.bd}
+startgroup
+set_property -dict [list CONFIG.DIN_FROM {2} CONFIG.DOUT_WIDTH {3}] [get_bd_cells xlslice_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.DIN_TO {3} CONFIG.DIN_FROM {5} CONFIG.DOUT_WIDTH {3}] [get_bd_cells xlslice_1]
+endgroup
+startgroup
+set_property -dict [list CONFIG.DIN_TO {6} CONFIG.DIN_FROM {8} CONFIG.DOUT_WIDTH {3}] [get_bd_cells xlslice_2]
+endgroup
+startgroup
+set_property -dict [list CONFIG.DIN_TO {9} CONFIG.DIN_FROM {11} CONFIG.DOUT_WIDTH {3}] [get_bd_cells xlslice_3]
+endgroup
+startgroup
+set_property -dict [list CONFIG.DIN_TO {12} CONFIG.DIN_FROM {14} CONFIG.DOUT_WIDTH {3}] [get_bd_cells xlslice_4]
+endgroup
+startgroup
+set_property -dict [list CONFIG.DIN_TO {15} CONFIG.DIN_FROM {17} CONFIG.DOUT_WIDTH {3}] [get_bd_cells xlslice_5]
+endgroup
+startgroup
+set_property -dict [list CONFIG.DIN_TO {18} CONFIG.DIN_FROM {20} CONFIG.DOUT_WIDTH {3}] [get_bd_cells xlslice_6]
+endgroup
+startgroup
+set_property -dict [list CONFIG.DIN_TO {21} CONFIG.DIN_FROM {23} CONFIG.DOUT_WIDTH {3}] [get_bd_cells xlslice_7]
+endgroup
+startgroup
+set_property -dict [list CONFIG.DIN_TO {24} CONFIG.DIN_FROM {26} CONFIG.DIN_WIDTH {32} CONFIG.DOUT_WIDTH {3}] [get_bd_cells xlslice_8]
+endgroup
+startgroup
+set_property -dict [list CONFIG.DIN_TO {27} CONFIG.DIN_FROM {29} CONFIG.DIN_WIDTH {32} CONFIG.DOUT_WIDTH {3}] [get_bd_cells xlslice_9]
+endgroup
+delete_bd_objs [get_bd_nets axi_gpio_1_gpio2_io_o]
+connect_bd_net [get_bd_pins xlslice_8/Din] [get_bd_pins axi_gpio_1/gpio_io_o]
+connect_bd_net [get_bd_pins xlslice_9/Din] [get_bd_pins axi_gpio_1/gpio_io_o]
+delete_bd_objs [get_bd_nets xlslice_0_Dout] [get_bd_ports MUX_SE1]
+delete_bd_objs [get_bd_nets xlslice_1_Dout] [get_bd_ports MUX_SE2]
+delete_bd_objs [get_bd_nets xlslice_2_Dout] [get_bd_ports MUX_SE3]
+delete_bd_objs [get_bd_nets xlslice_3_Dout] [get_bd_ports MUX_SE4]
+delete_bd_objs [get_bd_nets xlslice_4_Dout] [get_bd_ports MUX_SE5]
+delete_bd_objs [get_bd_nets xlslice_5_Dout] [get_bd_ports MUX_SE6]
+delete_bd_objs [get_bd_nets xlslice_6_Dout] [get_bd_ports MUX_SE7]
+delete_bd_objs [get_bd_nets xlslice_7_Dout] [get_bd_ports MUX_SE8]
+delete_bd_objs [get_bd_nets xlslice_8_Dout] [get_bd_ports MUX_SE9]
+delete_bd_objs [get_bd_nets xlslice_9_Dout]
+copy_bd_objs /  [get_bd_ports {MUX_SE10}]
+delete_bd_objs [get_bd_ports MUX_SE11]
+create_bd_port -dir O -from 0 -to 29 MUX_SE
+create_bd_port -dir O -from 9 -to 0 MUX_EN
+startgroup
+set_property -dict [list CONFIG.C_GPIO_WIDTH {30} CONFIG.C_GPIO2_WIDTH {10}] [get_bd_cells axi_gpio_1]
+endgroup
+delete_bd_objs [get_bd_nets Net]
+delete_bd_objs [get_bd_cells xlslice_0]
+delete_bd_objs [get_bd_cells xlslice_1]
+delete_bd_objs [get_bd_cells xlslice_2]
+delete_bd_objs [get_bd_cells xlslice_3]
+delete_bd_objs [get_bd_cells xlslice_4]
+delete_bd_objs [get_bd_cells xlslice_5]
+delete_bd_objs [get_bd_cells xlslice_6]
+delete_bd_objs [get_bd_cells xlslice_7]
+delete_bd_objs [get_bd_cells xlslice_8]
+delete_bd_objs [get_bd_cells xlslice_9]
+connect_bd_net [get_bd_ports MUX_SE] [get_bd_pins axi_gpio_1/gpio_io_o]
+connect_bd_net [get_bd_ports MUX_EN] [get_bd_pins axi_gpio_1/gpio2_io_o]
+delete_bd_objs [get_bd_ports MUX_SE10]
+open_bd_design {C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.srcs/sources_1/bd/design_1/design_1.bd}
+set_property name MUX_SEL [get_bd_ports MUX_SE]
+save_bd_design
+reset_run synth_1
+reset_run design_1_axi_gpio_1_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_bd_design {C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.srcs/sources_1/bd/design_1/design_1.bd}
+close_design
+open_bd_design {C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.srcs/sources_1/bd/design_1/design_1.bd}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property is_loc_fixed true [get_ports [list  {MUX_SEL[29]} {MUX_SEL[28]} {MUX_SEL[27]} {MUX_SEL[26]} {MUX_SEL[25]} {MUX_SEL[24]} {MUX_SEL[23]} {MUX_SEL[22]} {MUX_SEL[21]} {MUX_SEL[20]} {MUX_SEL[19]} {MUX_SEL[18]} {MUX_SEL[17]} {MUX_SEL[16]} {MUX_SEL[15]} {MUX_SEL[14]} {MUX_SEL[13]} {MUX_SEL[12]} {MUX_SEL[11]} {MUX_SEL[10]} {MUX_SEL[9]} {MUX_SEL[8]} {MUX_SEL[7]} {MUX_SEL[6]} {MUX_SEL[5]} {MUX_SEL[4]} {MUX_SEL[3]} {MUX_SEL[2]} {MUX_SEL[1]} {MUX_SEL[0]}]]
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -force  -include_bit -file C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.xsa
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.srcs/sources_1/bd/design_1/design_1.bd]
+refresh_design
+write_hw_platform -fixed -force  -include_bit -file C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.xsa
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -force  -include_bit -file C:/Users/hr193/Desktop/HPPSI/HPPSI/HPPSI.xsa
